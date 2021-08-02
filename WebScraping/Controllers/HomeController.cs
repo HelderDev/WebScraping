@@ -68,7 +68,7 @@ namespace WebScraping.Controllers
         }
 #endif
 
-        public async Task<IActionResult> Index()
+        public IActionResult Index()
         {
             string fullUrl = "https://en.wikipedia.org/wiki/List_of_programmers";
             List<string> programmerLinks = new List<string>();
